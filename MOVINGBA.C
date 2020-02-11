@@ -1,3 +1,5 @@
+// A program in C to print a ball and move it according to instructions given by arrow keys.
+
 #include<graphics.h>
 #include<process.h>
 #include<dos.h>
@@ -18,30 +20,33 @@ main()
 	{
 		ch=getch();
 
-		if(ch==72)
+		if(ch==72)  // Move up
 		{
 			x=0;
 			y=-1;
 
 		}
 
-		if(ch==75){
+		if(ch==75)  // Move left
+ 		{
 			x=-1;
 			y=0;
 
 
 		}
-		if(ch==77){
+		if(ch==77) // Move Right
+		{
 			x=1;
 			y=0;
 
 		}
-		if(ch==80){
+		if(ch==80) // Move down
+		{
 		x=0;
 		y=1;
 
 		}
-		if(ch==27)
+		if(ch==27) // Esc, Exit from the screen
 		{
 			exit(0);
 		}
