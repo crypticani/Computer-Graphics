@@ -1,3 +1,5 @@
+// A program in C to print a line using putpixel() function.
+
 #include<graphics.h>
 #include<stdio.h>
 #include<conio.h>
