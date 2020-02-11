@@ -1,3 +1,7 @@
+// A program to print a line using DDA ( Digital Differential Algorithm) Algorithm.
+
+#include<stdio.h>
+#include<conio.h>
 #include<graphics.h>
 #include<stdlib.h>
 
