@@ -1,3 +1,5 @@
+// A program in C to display the resolution of the Screen.
+
 #include<graphics.h>
 #include<stdio.h>
 #include<conio.h>
