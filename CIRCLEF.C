@@ -1,3 +1,5 @@
+/* A program in C to draw circle using the Putpixel() function. */
+
 #include<graphics.h>
 #include<math.h>
 
