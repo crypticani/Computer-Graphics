@@ -1,3 +1,5 @@
+// A program to print a line using Bressenhem's Line Algorithm
+
 #include<stdio.h>
 #include<conio.h>
 #include<graphics.h>
