@@ -31,7 +31,10 @@ void main()
 	{
 		for(j=0;j<9;j++)
 		{
-			putpixel(50+j,20+i,c*a[i][j]);
+			if(a[i][j]==1)
+			{
+				putpixel(50+j,20+i,c);
+			}
 		}
 	}
 getch();
